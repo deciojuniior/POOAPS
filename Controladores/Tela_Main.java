@@ -29,7 +29,7 @@ public class Tela_Main implements Initializable {
     @FXML
     private void onClickbtnIniciarSimulacao(ActionEvent event) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/telas/Tela_Config_Inicial.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../Telas/Tela_Config_Inicial.fxml"));
             Scene scene = new Scene(root);
             Main.stage.setScene(scene);
             Main.stage.show();
@@ -41,7 +41,7 @@ public class Tela_Main implements Initializable {
     @FXML
     private void onClickbtnConsultarResultados(ActionEvent event) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/telas/Tela_Consulta_Resultados.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../Telas/Tela_Consulta_Resultados.fxml"));
             Scene scene = new Scene(root);
             Main.stage.setScene(scene);
             Main.stage.show();

@@ -47,7 +47,7 @@ public class Tela_Consulta_Resultados implements Initializable {
     @FXML
     private void onClickbtnVoltar(ActionEvent event) {
                         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/telas/Tela_Main.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../Telas/Tela_Main.fxml"));
             Scene scene = new Scene(root);
             Main.stage.setScene(scene);
             Main.stage.show();

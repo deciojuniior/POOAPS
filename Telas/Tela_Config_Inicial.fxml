@@ -4,7 +4,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.Tela_Config_Inicial">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="POOAPS.Controladores.Tela_Config_Inicial">
    <children>
       <Button fx:id="btnSimular" layoutX="439.0" layoutY="313.0" mnemonicParsing="false" onAction="#onClickbtnSimular" text="Simular" />
       <Label layoutX="140.0" layoutY="62.0" text="Num.Pessoas:" />

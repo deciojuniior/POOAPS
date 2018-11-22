@@ -72,7 +72,7 @@ public class Tela_Resultado implements Initializable {
     @FXML
     private void onClickbtnVoltar(ActionEvent event) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/telas/Tela_Config_Inicial.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../Telas/Tela_Config_Inicial.fxml"));
             Scene scene = new Scene(root);
             Main.stage.setScene(scene);
             Main.stage.show();

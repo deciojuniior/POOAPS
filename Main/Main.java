@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Main.stage = stage;
-        Parent root = FXMLLoader.load(getClass().getResource("/telas/Tela_Main.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../Telas/Tela_Main.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
@@ -21,8 +21,6 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
-
-
     }
 
 }
