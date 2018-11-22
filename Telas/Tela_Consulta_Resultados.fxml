@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.Tela_Consulta_Resultados">
+   <children>
+      <TableView fx:id="tvTableView" layoutX="28.0" layoutY="88.0" prefHeight="228.0" prefWidth="668.0">
+        <columns>
+          <TableColumn fx:id="tbNumPessoas" prefWidth="90.0" text="Num. Pessoas" />
+          <TableColumn fx:id="tcPratos" prefWidth="75.0" text="Pratos" />
+            <TableColumn fx:id="tcSalada" prefWidth="75.0" text="Salada" />
+            <TableColumn fx:id="tcCarboidrato" prefWidth="90.0" text="Carboidrato" />
+            <TableColumn fx:id="tcProteina" text="Proteina" />
+            <TableColumn fx:id="tcSuco" prefWidth="75.0" text="Suco" />
+            <TableColumn fx:id="tcTempMin" prefWidth="90.0" text="Tempo Total" />
+            <TableColumn fx:id="tcTempMedio" prefWidth="92.0" text="Tempo Medio" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnVoltar" layoutX="549.0" layoutY="368.0" mnemonicParsing="false" onAction="#onClickbtnVoltar" text="Voltar a Tela Principal" />
+      <Label layoutX="28.0" layoutY="26.0" text="Tela de Consulta de Resultados" />
+   </children>
+</AnchorPane>
